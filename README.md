@@ -12,6 +12,7 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
+
    Run a pc health check to see if your computer meets the minimum requirements of installing windows 11
    Ensure that all your important files and data are backed up to an external drive or cloud storage.
    Go to the official page of microsoft and download windows 11.
@@ -45,6 +46,7 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download 
+
    Open your preferred web browser and go to the Visual Studio Code website.
    Click the “Download for Windows” button. This will download the installer file (VSCodeSetup.exe) to your computer.
    Run the Installer; Once the download is complete, navigate to your Downloads folder or the location where the installer was saved and Double-click on the VSCodeSetup.exe file to launch the installer.
@@ -66,6 +68,7 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+
    Go to the official Git website and Click the “Download for Windows” button. This will download the Git installer and run the Installer:
    Locate the downloaded installer  in your Downloads folder and double-click to run it.
    Follow the following steps:
@@ -83,6 +86,7 @@ This assignment aims to familiarize you with the tools and configurations necess
     Configure your username by typing the following command git config --global user.name "Your Name" then input your git hub username in the quotes 
     Configure your email by typing the following command git config --global user.email "your_email@example.com" and input your githaub email
   Check your configuration by typing git config --list
+  ![Alt text](git.png)
 
    Creating a GitHub Account:
     Go to GitHub and Click “Sign up” in the upper-right corner.
@@ -105,9 +109,11 @@ This assignment aims to familiarize you with the tools and configurations necess
    Link Your Local Repository to GitHub: In Git Bash or Command Prompt, add the GitHub repository by pasting the following comand:
    git remote add origin "paste the link to the repo here"
    Finally Push your local repository to GitHub by pasting this commandm;git push -u origin master
+   ![Alt text](github.png)
 
 4. Install Necessary Programming Languages and Runtimes:
   Install Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+
   Open your preferred web browser.
   Visit the official Python website: https://www.python.org/.
   On the Python homepage, click the “Downloads” tab.
@@ -120,9 +126,11 @@ This assignment aims to familiarize you with the tools and configurations necess
   Once the installation is complete, the setup wizard will show a “Setup was successful” message. Click “Close” to exit the installer.
   Verify Python Installation by opening command prompt and checking the python version by typing 'python --version'
   install python extension on vs code.
+  ![Alt text](python.png)
 
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
+
    Open your preferred web browser.Go to the get-pip.py file in your browser and right-click on the page and select “Save As” to download the get-pip.py script to your computer.
    Open Command Prompt and Use the cd command to navigate to the directory where you saved get-pip.py. For example: cd C:\Users\YourUsername\Downloads
    Install pip by running the following command: python get-pip.py
@@ -131,6 +139,7 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+
    Open your preferred web browser.Visit the official MySQL website: https://dev.mysql.com/downloads/installer/.
    You will see two options: "Web" and "Full". The "Web" version is smaller and requires an internet connection during installation to download the necessary components, while the "Full" version includes all the components in one package.Click the "Download" button for your preferred version (it is recommended to use the "Web" version unless you want all features offline).
    You may be prompted to sign up for an Oracle account, but you can click on “No thanks, just start my download” to download without signing up.
@@ -150,12 +159,14 @@ This assignment aims to familiarize you with the tools and configurations necess
    Open the MySQL Command Line Client from the Start menu.then enter the root password you set during the configuration. and you should now be logged in to the MySQL command line interface.
    Run a simple query to verify the installation: SHOW DATABASES;
    You should see a list of default databases. This means you have installed sql successfully 
+   ![Alt text](SQL.png)
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+   
    Launch VS Code In the Activity Bar on the side of the VS Code window, click the Extensions icon
    In the Extensions view, there is a search box at the top. Type the name or keyword of the extension you want to install. For example, to install the Python extension, type “Python”.
    Browse through the search results and click on the extension you want to install
@@ -169,6 +180,7 @@ This assignment aims to familiarize you with the tools and configurations necess
    Version Control:GitLens, Git History
    Utilities:Live Server, Path Intellisense
    Themes and Icons:monokai dark,github dark
+   ![Alt text](vs-code.png)
 
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
